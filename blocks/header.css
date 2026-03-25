@@ -1,0 +1,84 @@
+.header {
+  background-color: #ffffff;
+  background-image: url("/images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  padding: 30px 80px 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header__title {
+  max-width: 709px;
+  margin-top: 183px;
+  font-family: "Inter", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+.header__title-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", "serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  max-width: 683px;
+  margin-top: 28px;
+  font-family: "Noto Serif", "Times New Roman", "serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  font-family: "Inter", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
+  gap: 0;
+}
+
+.header__paragraph {
+  margin: 0;
+}
+
+.header__address {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+}

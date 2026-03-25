@@ -15,7 +15,6 @@
     <meta name="author" content="Juan Pablo Herrera Gonzalez" />
     <meta name="theme-color" content="#ffffff" />
     <link rel="shortcut icon" href="favicon.ico.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -170,7 +169,7 @@
               <button type="submit" class="form__button">
                 Reservar una mesa
               </button>
-              <label for="terms" class="form__label form__label-checkbox">
+              <label for="terms" class="form__label form__label_checkbox">
                 <input
                   type="checkbox"
                   id="terms"
@@ -183,7 +182,42 @@
           </form>
         </section>
       </main>
-      <footer class="footer" id="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logotipo del Coffee Shop Triple Espresso"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes Sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Ícono Facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Ícono Instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2026 Juan Pablo Herrera Gonzalez.</p>
+      </footer>
     </div>
   </body>
 </html>
